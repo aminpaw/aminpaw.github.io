@@ -1,9 +1,13 @@
 body{
-    background-color: rgb(10, 10, 10);
+    background: url("bg.jpeg");
+    background-size: 100% 100%;
 }
 h1{
     font-family: "Press Start 2P", "consolas", sans-serif;
-    font-size: 47px;
+    font-size: 50px;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
     text-align: center;
     text-decoration: gold wavy underline;
     color: white;
@@ -12,16 +16,18 @@ p{
     font-family: "Press Start 2P", "consolas", "monospace";
     font-weight: bold;
     font-size: 14ox;
-    color: rgb(189, 22, 147);
+    color: rgb(15, 10, 14);
 }
 .noborder{
-    font-size: 22px;
-    color: rgb(42, 181, 236);
+    font-size: 30px;
+    color: rgb(255, 0, 128);
     text-align: center;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 1px;
 }
 
 .bordered{
-
+    background: linear-gradient(180deg,hotpink,turquoise);
     border: 5px solid rgb(255, 255, 255);
     border-radius: 8px;
     padding: 10px;
