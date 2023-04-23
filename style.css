@@ -2,17 +2,25 @@ body{
     background-color: rgb(10, 10, 10);
 }
 h1{
-    font-family: "Press Start 2P", "consolas", "monospace";
+    font-family: "Press Start 2P", "consolas", sans-serif;
+    font-weight: bold;
     color: white;
 }
 p{
     font-family: "Press Start 2P", "consolas", "monospace";
-    font: 100px;
-    font: bold;
-    font-size: larger;
-    color: rgb(144, 189, 22);
+    font-weight: bold;
+    font-size: 14ox;
+    color: rgb(189, 22, 147);
 }
 #pp{
-    font-size: 23;
-    color: rgb(189, 89, 22);
+    font-size: 16px;
+    color: rgb(42, 181, 236);
+}
+
+.bordered{
+
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
 }
