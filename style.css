@@ -3,7 +3,7 @@ body{
 }
 h1{
     font-family: "Press Start 2P", "consolas", sans-serif;
-    font-size: 50px;
+    font-size: 47px;
     text-align: center;
     text-decoration: gold wavy underline;
     color: white;
@@ -14,7 +14,7 @@ p{
     font-size: 14ox;
     color: rgb(189, 22, 147);
 }
-#pp{
+.noborder{
     font-size: 22px;
     color: rgb(42, 181, 236);
     text-align: center;
