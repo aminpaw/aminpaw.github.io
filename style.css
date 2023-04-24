@@ -5,13 +5,11 @@ body{
 }
 h1{
     font-family: "Press Start 2P", "consolas", sans-serif;
-    font-size: 47px;
+    font-size: 50px;
     text-align: center;
     text-decoration: gold wavy underline;
-    color: white;
+    color: whitesmoke;
     line-height: 150%;
-    -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 2px;
 }
 p{
     font-family: "Press Start 2P", "consolas", "monospace";
