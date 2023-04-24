@@ -1,9 +1,7 @@
 body{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0 100%), url("bg.jpeg");
-    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
     margin: 0px 10px 10px 10px;
 
 }
