@@ -63,7 +63,7 @@ function draw(){
             stroke(255, 100);
             strokeWeight = 1.1;
         }
-        line(i,0,i,height);
+        line(i,-height,i,height);
         line(-width,i,width,i);
         count += 1;
     }
