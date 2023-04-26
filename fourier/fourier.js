@@ -18,7 +18,7 @@ function setup(){
     slider.style.top = window.innerHeight*1.1 + height/5 + 'px';
     slider.style.zIndex = 1;
 
-    let k = slider.value; // Display the default slider value
+    k = slider.value; // Display the default slider value
 
 
 
