@@ -2,6 +2,26 @@ let time = 0;
 let wave = [];
 let k = 10;
 function setup(){
+    //make a backbutton with round corners and player 2 ready font
+    let back = createButton('Back');
+    back.style('font-family', '"Press Start 2P", consolas, monospace');
+    back.style('border-radius', '10px');
+    back.style('background-color', 'white');
+    back.style('color', 'black');
+    back.style('font-size', '20px');
+    back.style('border', 'none');
+    back.style('padding', '10px');
+    back.style('position', 'absolute');
+    back.style('top', '50px');
+    back.style('left', '50px');
+    back.style('z-index', '1');
+    back.mousePressed(function(){
+        window.location.href = '../index.html';
+    });
+
+
+
+
     createCanvas(window.innerWidth*0.8, window.innerHeight);
     // move canvas to center of any screen
     canvas = document.querySelector('canvas');
