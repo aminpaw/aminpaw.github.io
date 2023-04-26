@@ -1,6 +1,6 @@
 let time = 0;
 let wave = [];
-
+let k = 10;
 function setup(){
     createCanvas(window.innerWidth*0.8, window.innerHeight);
     // move canvas to center of any screen
@@ -17,10 +17,6 @@ function setup(){
     slider.style.left = (window.innerWidth - width) / 2 + 'px';
     slider.style.top = window.innerHeight*1.1 + height/5 + 'px';
     slider.style.zIndex = 1;
-
-    k = slider.value; // Display the default slider value
-
-
 
 }
 
