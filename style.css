@@ -13,6 +13,14 @@ h1{
     color: whitesmoke;
     line-height: 150%;
 }
+a{
+    margin-right: 100%;
+    font-family: "consolas", sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+}
 p{
     font-family: "Press Start 2P", "consolas", "monospace";
     font-weight: bold;
@@ -73,3 +81,15 @@ p{
     padding: 10px;
     margin: 5%
 }
+
+.link{
+    font-family: "Press Start 2P", "consolas", sans-serif;
+    font-size: 30;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 150%;
+}
+
+canvas {
+    display: block;
+  }
