@@ -57,7 +57,7 @@ function draw(){
     //draw square grid
     let count = 0;
     translate(-width/2, -height/2);
-    for (let i = 0; i < 10000; i+=height/40){
+    for (let i = -height; i < 10000; i+=height/40){
         stroke(255, 40);
         strokeWeight = 0.5;
         if (count%5 == 0){
