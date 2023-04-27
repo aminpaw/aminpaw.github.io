@@ -5024,9 +5024,10 @@ function setup(){
     canvas.style.position = 'absolute';
     canvas.style.left = (window.innerWidth - width) / 2 + 'px';
     canvas.style.zIndex = -1;
+    console.log(width);
     const skip = 16;
     for (let i = 0; i < drawing.length; i += skip) {
-        const c = new Complex(drawing[i].x*(width/800), drawing[i].y*(width/800));
+        const c = new Complex(drawing[i].x*(height/800), drawing[i].y*(height/800));
         y.push(c);
     }
     //make dft object
