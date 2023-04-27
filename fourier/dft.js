@@ -5018,20 +5018,21 @@ let drawing = [
   ];
 
 function setup(){
-    const skip = 10;
-    for (let i = 0; i < drawing.length; i += skip) {
-        const c = new Complex(drawing[i].x, drawing[i].y);
-        y.push(c);
-    }
-    //make dft object
-    dftObj = new dft(y);
-    console.log(dftObj);
     createCanvas(window.innerWidth*0.8, window.innerWidth*0.8*(9/16));
     // move canvas to center of any screen
     canvas = document.querySelector('canvas');
     canvas.style.position = 'absolute';
     canvas.style.left = (window.innerWidth - width) / 2 + 'px';
     canvas.style.zIndex = -1;
+    const skip = 16;
+    for (let i = 0; i < drawing.length; i += skip) {
+        const c = new Complex(drawing[i].x*(width/800), drawing[i].y*(width/800));
+        y.push(c);
+    }
+    //make dft object
+    dftObj = new dft(y);
+    console.log(dftObj);
+
 
 }
 // make a complex number class
